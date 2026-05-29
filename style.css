@@ -418,6 +418,27 @@ footer {
 }
 
 
+   /* ARTICLES (GRID) */
+
+
+#consejos .articles-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+article {
+    background-color: var(--color-bg);
+    border: var(--border);
+    box-shadow: var(--shadow);
+    padding: 24px;
+}
+
+article h3 {
+    margin-top: 0;
+}
+
    /* RESPONSIVE - TABLET */
 
 
@@ -516,5 +537,8 @@ footer {
     button[type="submit"] {
         width: 100%;
         text-align: center;
+    }
+    #consejos .articles-grid {
+        grid-template-columns: 1fr;
     }
 }
