@@ -416,3 +416,105 @@ footer {
     letter-spacing: 2px;
     text-transform: uppercase;
 }
+
+
+   /* RESPONSIVE - TABLET */
+
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    header p {
+        font-size: 0.45rem;
+    }
+
+    nav ul li a {
+        font-size: 0.38rem;
+        padding: 12px 10px;
+    }
+
+    section {
+        padding: 24px;
+    }
+
+    h2 {
+        font-size: 0.8rem;
+        margin: -24px -24px 20px -24px;
+    }
+
+    iframe {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16/9;
+    }
+}
+
+
+   /* RESPONSIVE - MOBILE */
+
+
+@media (max-width: 480px) {
+    header {
+        padding: 36px 16px 30px;
+    }
+
+    header h1 {
+        font-size: 1rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    nav ul li a {
+        text-align: center;
+        border-right: none;
+        border-bottom: 1px solid #333;
+        padding: 12px;
+    }
+
+    nav ul li:first-child a {
+        border-left: none;
+    }
+
+    main {
+        padding: 24px 12px;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 0.65rem;
+        margin: -20px -20px 18px -20px;
+        line-height: 1.8;
+    }
+
+    h3 {
+        font-size: 0.55rem;
+    }
+
+    table {
+        font-size: 0.82rem;
+        display: block;
+        overflow-x: auto;
+    }
+
+    thead th {
+        font-size: 0.38rem;
+        padding: 10px 8px;
+    }
+
+    tbody td {
+        padding: 8px;
+    }
+
+    button[type="submit"] {
+        width: 100%;
+        text-align: center;
+    }
+}
