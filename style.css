@@ -514,7 +514,20 @@ article h3 {
     margin-top: 0;
 }
 
-   /* RESPONSIVE - TABLET */
+/* Scrollbar personalizada */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--color-dark);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--color-red);
+}   
+
+/* RESPONSIVE - TABLET */
 
 
 @media (max-width: 768px) {
