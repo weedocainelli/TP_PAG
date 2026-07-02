@@ -198,24 +198,28 @@
             <h2>Contacto</h2>
             <p>¿Tenés alguna sugerencia para la guía o querés preguntar algo? ¡Escribinos!</p>
 
-            <form action="#" method="post">
-                <div>
-                    <label for="nombre">Nombre:</label><br>
-                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
-                </div>
-                <br>
-                <div>
-                    <label for="email">Email:</label><br>
-                    <input type="email" id="email" name="email" placeholder="tucorreo@ejemplo.com" required>
-                </div>
-                <br>
-                <div>
-                    <label for="mensaje">Mensaje:</label><br>
-                    <textarea id="mensaje" name="mensaje" rows="5" cols="40" placeholder="Escribí tu mensaje acá..." required></textarea>
-                </div>
-                <br>
-                <button type="submit">Enviar mensaje</button>
-            </form>
+            <form id="form-contacto" action="#" method="post" novalidate>
+    <div>
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+        <span class="error-msg" id="error-nombre"></span>
+    </div>
+    <br>
+    <div>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="tucorreo@ejemplo.com" required>
+        <span class="error-msg" id="error-email"></span>
+    </div>
+    <br>
+    <div>
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="5" cols="40" placeholder="Escribí tu mensaje acá..." required></textarea>
+        <span class="error-msg" id="error-mensaje"></span>
+    </div>
+    <br>
+    <button type="submit">Enviar mensaje</button>
+    <p id="form-feedback"></p>
+</form>
         </section>
 
     </main>

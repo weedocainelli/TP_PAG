@@ -587,6 +587,18 @@ article h3 {
     color: var(--color-red);
 }
 
+.error-msg {
+    display: block;
+    color: var(--color-red);
+    font-size: 0.8rem;
+    margin-top: 4px;
+    min-height: 1em;
+}
+
+#form-feedback { font-weight: 700; }
+#form-feedback.exito { color: #1a7d1a; }
+#form-feedback.error { color: var(--color-red); }
+
 
 /* RESPONSIVE - TABLET */
 
