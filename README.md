@@ -43,6 +43,7 @@ https://github.com/weedocainelli/TP_PAG
 ![Vista desktop](./Imagenes/cap1.png)
 ![Vista desktop](./Imagenes/cap2.png)
 ![Vista desktop](./Imagenes/cap3.png)
+![Vista desktop](./Imagenes/cap4.png)
 
 
 ## Autor
