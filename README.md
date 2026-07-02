@@ -17,6 +17,7 @@ También tiene un formulario de contacto al final para cualquier consulta o suge
 ## Tecnologías utilizadas
 - HTML5
 - CSS3 (Flexbox, Grid, animaciones, diseño responsive)
+- JavaScript (funciones, eventos, arrays, DOM, validaciones)
 - Google Fonts (Press Start 2P, Courier Prime)
 
 ## Mejoras visuales incorporadas
@@ -27,6 +28,15 @@ También tiene un formulario de contacto al final para cualquier consulta o suge
 - Diseño responsive para tablet (768px) y mobile (480px)
 - Efectos hover en navegación, tabla, inputs y botón
 - Scrollbar personalizada
+
+## Funcionalidades implementadas
+- Buscador de consejos en tiempo real (filtra el array de consejos según lo que se escribe).
+- Botón para mostrar un consejo aleatorio.
+- Validación del formulario de contacto (campos vacíos, formato de email) con manejo de errores mediante try/catch.
+- Mensajes de error y de éxito mostrados dinámicamente en el DOM.
+
+## Enlace al repositorio
+https://github.com/weedocainelli/TP_PAG
 
 ## Capturas
 ### Desktop
