@@ -33,9 +33,16 @@ function filtrarConsejos() {
     renderizarConsejos(filtrados);
 }
 
+function mostrarConsejoAleatorio() {
+    const indice = Math.floor(Math.random() * consejos.length);
+    const parrafo = document.getElementById("consejo-random");
+    parrafo.textContent = consejos[indice];
+}
+
 function inicializar() {
     renderizarConsejos(consejos);
     document.getElementById("buscador").addEventListener("input", filtrarConsejos);
+    document.getElementById("btn-aleatorio").addEventListener("click", mostrarConsejoAleatorio);
 }
 
 document.addEventListener("DOMContentLoaded", inicializar);

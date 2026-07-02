@@ -562,6 +562,31 @@ article h3 {
     padding: 10px 14px;
 }
 
+#btn-aleatorio {
+    background-color: var(--color-orange);
+    border: var(--border);
+    color: var(--color-dark);
+    font-family: var(--font-display);
+    font-size: 0.55rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 12px 22px;
+    cursor: pointer;
+    box-shadow: var(--shadow);
+    transition: transform 0.1s, box-shadow 0.1s;
+}
+
+#btn-aleatorio:hover {
+    transform: translate(2px, 2px);
+    box-shadow: 3px 3px 0px var(--color-dark);
+}
+
+#consejo-random {
+    margin-top: 14px;
+    font-weight: 700;
+    color: var(--color-red);
+}
+
 
 /* RESPONSIVE - TABLET */
 
